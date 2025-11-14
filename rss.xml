@@ -5,39 +5,72 @@
     <link>https://username.github.io/news-site/</link>
     <description>أحدث الأخبار اليومية من First News</description>
     <language>ar</language>
-    <lastBuildDate>Wed, 13 Nov 2025 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 19:00:00 +0000</lastBuildDate>
 
     <!-- الخبر الأول -->
     <item>
-      <title>الخبر الأول: إطلاق موقع جديد</title>
+      <title>بورصة نيويورك ترتفع بعد إعلان أرباح شركات التكنولوجيا الكبرى</title>
       <link>https://username.github.io/news-site/news1.html</link>
       <description>
-        تم اليوم إطلاق موقع جديد يعرض أحدث الأخبار التقنية بشكل يومي. الموقع مصمم لتوفير تجربة سهلة وسلسة للمستخدمين مع متابعة الأخبار العاجلة أولًا بأول.
+        شهدت بورصة نيويورك ارتفاعًا ملحوظًا بعد إعلان أرباح شركات التكنولوجيا الكبرى مثل Apple وMicrosoft، مما يعكس أداءً إيجابيًا في قطاع التكنولوجيا ويعزز الثقة لدى المستثمرين.
       </description>
-      <pubDate>Wed, 13 Nov 2025 10:00:00 +0000</pubDate>
-      <enclosure url="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" type="image/png"/>
+      <pubDate>Fri, 14 Nov 2025 14:00:00 +0000</pubDate>
+      <enclosure url="https://i.ibb.co/RpCKNTys/file.png" type="image/png"/>
     </item>
 
     <!-- الخبر الثاني -->
     <item>
-      <title>الخبر الثاني: تحديث جديد في جوجل</title>
+      <title>البنك الدولي يحذر من تباطؤ الاقتصاد العالمي لعام 2026</title>
       <link>https://username.github.io/news-site/news2.html</link>
       <description>
-        أعلنت جوجل عن تحديث جديد لخوارزميات البحث لتحسين تجربة المستخدمين. يشمل التحديث تحسين نتائج البحث لتكون أكثر دقة وتخصيصًا، مع التركيز على المحتوى الأصلي والجودة العالية.
+        حذر البنك الدولي من تباطؤ الاقتصاد العالمي في عام 2026 نتيجة استمرار التضخم وانخفاض مستويات الاستثمارات في العديد من الدول، داعيًا إلى اتخاذ إجراءات عاجلة لدعم النمو الاقتصادي والاستقرار المالي.
       </description>
-      <pubDate>Wed, 13 Nov 2025 11:30:00 +0000</pubDate>
-      <enclosure url="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" type="image/png"/>
+      <pubDate>Fri, 14 Nov 2025 15:00:00 +0000</pubDate>
+      <enclosure url="https://i.ibb.co/mVKK03Wq/file-00000000ae7871f49a8961fc09fde899.png" type="image/png"/>
     </item>
 
     <!-- الخبر الثالث -->
     <item>
-      <title>الخبر الثالث: الذكاء الاصطناعي في التعليم</title>
+      <title>النفط يرتفع عالميًا إلى 95 دولارًا للبرميل بعد توترات جديدة في الشرق الأوسط</title>
       <link>https://username.github.io/news-site/news3.html</link>
       <description>
-        بدأ الذكاء الاصطناعي يغير طريقة التعليم التقليدية ويقدم فرصًا جديدة للطلاب والمعلمين. يمكن تخصيص المحتوى التعليمي بحسب مستوى الطالب وتقديم دعم مباشر في فهم المواد الصعبة.
+        ارتفعت أسعار النفط عالميًا إلى مستوى 95 دولارًا للبرميل نتيجة تصاعد التوترات في الشرق الأوسط، مما أثار مخاوف بشأن تأثر خطوط الإمداد واستمرار ارتفاع الطلب العالمي.
       </description>
-      <pubDate>Wed, 13 Nov 2025 13:00:00 +0000</pubDate>
-      <enclosure url="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" type="image/png"/>
+      <pubDate>Fri, 14 Nov 2025 16:30:00 +0000</pubDate>
+      <enclosure url="https://i.ibb.co/Hf31GNCL/Screenshot-2.jpg" type="image/jpeg"/>
+    </item>
+
+    <!-- الخبر الرابع -->
+    <item>
+      <title>OpenAI تطلق نسخة تجريبية جديدة من GPT-6 بقدرات متعددة اللغات</title>
+      <link>https://username.github.io/news-site/news4.html</link>
+      <description>
+        أعلنت شركة OpenAI عن إطلاق نسخة تجريبية من نموذج GPT-6 بقدرات متقدمة في فهم ومعالجة اللغات المتعددة، مما يتيح تفاعلًا أكثر دقة وذكاء مع المستخدمين حول العالم.
+      </description>
+      <pubDate>Fri, 14 Nov 2025 17:00:00 +0000</pubDate>
+      <enclosure url="https://i.ibb.co/JwHC6f0M/Screenshot-2.jpg" type="image/jpeg"/>
+    </item>
+
+    <!-- الخبر الخامس -->
+    <item>
+      <title>علاج جديد للسرطان يعتمد على الذكاء الاصطناعي يظهر نتائج واعدة</title>
+      <link>https://username.github.io/news-site/news5.html</link>
+      <description>
+        كشف باحثون عن علاج جديد للسرطان يعتمد على تقنيات الذكاء الاصطناعي في تحليل الخلايا السرطانية واستهدافها بدقة أعلى، ما أدى إلى تقليل نمو الأورام بشكل ملحوظ خلال التجارب الأولية.
+      </description>
+      <pubDate>Fri, 14 Nov 2025 18:00:00 +0000</pubDate>
+      <enclosure url="https://i.ibb.co/bRDjQz0z/Screenshot-2.jpg" type="image/jpeg"/>
+    </item>
+
+    <!-- الخبر السادس -->
+    <item>
+      <title>اشتباكات محدودة بين حزب الله والجيش الإسرائيلي على الحدود اللبنانية</title>
+      <link>https://username.github.io/news-site/news6.html</link>
+      <description>
+        تبادل محدود لإطلاق النار بين حزب الله والجيش الإسرائيلي على الحدود الجنوبية اللبنانية وسط تحذيرات دولية من احتمال توسع المواجهات في المنطقة مع استمرار التوترات الإقليمية.
+      </description>
+      <pubDate>Fri, 14 Nov 2025 19:00:00 +0000</pubDate>
+      <enclosure url="https://i.ibb.co/gZgRH0JR/Screenshot-2.jpg" type="image/jpeg"/>
     </item>
 
   </channel>
