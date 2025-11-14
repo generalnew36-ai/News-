@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>First News</title>
+    <link>https://username.github.io/news-site/</link>
+    <description>أحدث الأخبار اليومية من First News</description>
+    <language>ar</language>
+    <lastBuildDate>Wed, 13 Nov 2025 12:00:00 +0000</lastBuildDate>
+
+    <!-- الخبر الأول -->
+    <item>
+      <title>الخبر الأول: إطلاق موقع جديد</title>
+      <link>https://username.github.io/news-site/news1.html</link>
+      <description>
+        تم اليوم إطلاق موقع جديد يعرض أحدث الأخبار التقنية بشكل يومي. الموقع مصمم لتوفير تجربة سهلة وسلسة للمستخدمين مع متابعة الأخبار العاجلة أولًا بأول.
+      </description>
+      <pubDate>Wed, 13 Nov 2025 10:00:00 +0000</pubDate>
+      <enclosure url="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" type="image/png"/>
+    </item>
+
+    <!-- الخبر الثاني -->
+    <item>
+      <title>الخبر الثاني: تحديث جديد في جوجل</title>
+      <link>https://username.github.io/news-site/news2.html</link>
+      <description>
+        أعلنت جوجل عن تحديث جديد لخوارزميات البحث لتحسين تجربة المستخدمين. يشمل التحديث تحسين نتائج البحث لتكون أكثر دقة وتخصيصًا، مع التركيز على المحتوى الأصلي والجودة العالية.
+      </description>
+      <pubDate>Wed, 13 Nov 2025 11:30:00 +0000</pubDate>
+      <enclosure url="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" type="image/png"/>
+    </item>
+
+    <!-- الخبر الثالث -->
+    <item>
+      <title>الخبر الثالث: الذكاء الاصطناعي في التعليم</title>
+      <link>https://username.github.io/news-site/news3.html</link>
+      <description>
+        بدأ الذكاء الاصطناعي يغير طريقة التعليم التقليدية ويقدم فرصًا جديدة للطلاب والمعلمين. يمكن تخصيص المحتوى التعليمي بحسب مستوى الطالب وتقديم دعم مباشر في فهم المواد الصعبة.
+      </description>
+      <pubDate>Wed, 13 Nov 2025 13:00:00 +0000</pubDate>
+      <enclosure url="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" type="image/png"/>
+    </item>
+
+  </channel>
+</rss>
