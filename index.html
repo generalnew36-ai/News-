@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>First News — الصفحة الرئيسية</title>
+<style>
+:root{
+  --bg:#f5f7fb;
+  --card:#ffffff;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --accent:#2563eb;
+  --shadow:0 6px 18px rgba(15,23,42,0.06);
+}
+.dark{
+  --bg:#0b1220;
+  --card:#071021;
+  --text:#e6eef8;
+  --muted:#9aa8bd;
+  --accent:#60a5fa;
+  --shadow:0 8px 24px rgba(2,6,23,0.7);
+}
+html,body{
+  margin:0;padding:0;font-family:"Cairo",sans-serif;
+  background:var(--bg);color:var(--text);
+}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px;max-width:1100px;margin:auto;}
+.brand{display:flex;gap:12px;align-items:center;}
+.logo{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7dd3fc);display:flex;justify-content:center;align-items:center;box-shadow:var(--shadow);}
+.logo svg{width:28px;height:28px;stroke:#fff;}
+h1{margin:0;font-size:16px;} 
+p.subtitle{margin:0;color:var(--muted);font-size:14px;}
+.controls{display:flex;gap:8px;}
+.toggle-btn{width:44px;height:44px;border-radius:10px;border:none;background:var(--card);box-shadow:var(--shadow);display:flex;align-items:center;justify-content:center;cursor:pointer;}
+.toggle-btn svg{width:24px;height:24px;}
+main{max-width:1100px;margin:10px auto;display:grid;gap:18px;}
+.featured{display:grid;gap:12px;}
+.card{background:var(--card);padding:14px;border-radius:12px;box-shadow:var(--shadow);overflow:hidden;}
+.card .thumb{width:100%;height:auto;object-fit:contain;border-radius:10px;margin-bottom:12px;}
+.meta{display:flex;gap:8px;color:var(--muted);font-size:13px;margin-bottom:8px;}
+.category{background:rgba(37,99,235,0.12);color:var(--accent);padding:4px 8px;border-radius:8px;font-weight:600;font-size:12px;}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;}
+.news h2{margin:6px 0 8px;font-size:18px;}
+.news p{margin:0 0 8px;color:var(--muted);line-height:1.5;}
+.share-btn{display:flex;align-items:center;gap:4px;padding:6px 10px;border:none;border-radius:8px;background:rgba(37,99,235,0.12);color:var(--accent);cursor:pointer;font-weight:600;}
+.share-btn svg{width:18px;height:18px;}
+footer{text-align:center;color:var(--muted);padding:14px;}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.card .thumb{height:auto}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <div class="logo">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M21 14.5C20.5 14.376 19.6851 14.3714 19 14.376C18.7709 14.3775 18.9094 14.3678 18.6 14.376C17.7926 14.4012 17.0016 14.7368 17 15.6875C16.9982 16.7004 18 17 19 17C20 17 21 17.2312 21 18.3125C21 19.1251 20.1925 19.4812 19.1861 19.5991C18.3861 19.5991 18 19.625 17 19.5M19 20V21M19 13V14M3 12H14M3 12C3 16.9706 7.02944 21 12 21M3 12C3 7.02944 7.02944 3 12 3M12 21C12.338 21 12.6717 20.9814 13 20.9451M12 21C4.75561 13.08 8.98151 5.7 12 3M12 3C15.9187 3 19.2524 5.50442 20.4879 9M12 3C13.3399 4.19853 14.9177 6.31924 15.6246 9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div>
+      <h1>First News</h1>
+      <p class="subtitle">أحدث الأخبار — مباشر</p>
+    </div>
+  </div>
+  <div class="controls">
+    <button id="dark-toggle" class="toggle-btn" title="الوضع الداكن">
+      <svg id="icon-sun" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5" fill="currentColor"/><g stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"/><line x1="18.4" y1="18.4" x2="19.8" y2="19.8"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.2" y1="19.8" x2="5.6" y2="18.4"/><line x1="18.4" y1="5.6" x2="19.8" y2="4.2"/></g></svg>
+      <svg id="icon-moon" viewBox="0 0 24 24" fill="none" style="display:none"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" fill="currentColor"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+<section class="featured" id="news-container">
+  <div class="card">
+    <p style="color:var(--muted);text-align:center;margin:0;">... جاري تحميل الأخبار</p>
+  </div>
+</section>
+</main>
+
+<footer>© <span id="year"></span> First News — جميع الحقوق محفوظة.</footer>
+
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+
+const toggle=document.getElementById('dark-toggle');
+const iconSun=document.getElementById('icon-sun');
+const iconMoon=document.getElementById('icon-moon');
+
+function applyTheme(isDark){
+  if(isDark){document.documentElement.classList.add('dark');iconSun.style.display='none';iconMoon.style.display='block';}
+  else{document.documentElement.classList.remove('dark');iconSun.style.display='block';iconMoon.style.display='none';}
+}
+
+const saved=localStorage.getItem('site-theme');
+if(saved){applyTheme(saved==='dark');}
+else{applyTheme(window.matchMedia('(prefers-color-scheme: dark)').matches);}
+
+toggle.addEventListener('click',()=>{
+  const isDark=document.documentElement.classList.toggle('dark');
+  localStorage.setItem('site-theme',isDark?'dark':'light');
+  applyTheme(isDark);
+});
+
+async function loadRSS(){
+  try{
+    const res=await fetch('rss.xml',{cache:'no-store'});
+    if(!res.ok)throw new Error('لم يتم العثور على rss.xml');
+    const text=await res.text();
+    const xml=new DOMParser().parseFromString(text,'application/xml');
+    const items=Array.from(xml.querySelectorAll('item'));
+    const container=document.getElementById('news-container');
+    container.innerHTML='';
+    if(items.length===0){container.innerHTML='<div class="card"><p style="text-align:center;color:var(--muted)">لا توجد أخبار</p></div>';return;}
+    const read=(n,t)=>n.querySelector(t)?.textContent.trim()||'';
+    const img=n=>n.querySelector('enclosure')?.getAttribute('url')||'';
+
+    items.forEach(it=>{
+      const card=document.createElement('article');
+      card.className='card news';
+      card.innerHTML=`
+        ${img(it)?`<img src="${img(it)}" class="thumb">`:''}
+        <div class="meta"><span class="category">${it.querySelector('category')?.textContent||'عام'}</span><span>${new Date(read(it,'pubDate')).toLocaleString('ar-EG')}</span></div>
+        <h2>${read(it,'title')}</h2>
+        <p>${read(it,'description')}</p>
+        <button class="share-btn" onclick="alert('شارك هذا المقال!')">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 12v7a1 1 0 001 1h14a1 1 0 001-1v-7M16 6l-4-4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          مشاركة
+        </button>`;
+      container.appendChild(card);
+    });
+  }catch(e){
+    document.getElementById('news-container').innerHTML=`<div class="card"><p style="text-align:center;color:var(--muted)">فشل تحميل الأخبار: ${e.message}</p></div>`;
+  }
+}
+loadRSS();
+</script>
+</body>
+</html>
